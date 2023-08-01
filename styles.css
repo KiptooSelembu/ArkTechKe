@@ -1,0 +1,198 @@
+/* Add this to your styles.css file */
+
+/* Basic styling for the navigation bar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #12abe74f;
+    border-radius: 45px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the main section and its content */
+.main {
+    background-color: #f2f2f2;
+    background: url("https://images.unsplash.com/photo-1682254739590-bb652d6e768f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80");
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    flex-basis: 60%;
+    text-align: left;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 36px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: aqua;
+    margin-bottom: 30px;
+}
+
+.container button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the image */
+.image-container {
+    flex-basis: 35%;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "About Us" section */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#about-us {
+    text-align: center;
+}
+
+#about-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Style the team members section */
+.team-members {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("https://plus.unsplash.com/premium_photo-1678865183765-696a4b1887d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
+    background-size:auto;
+    border-radius: 35PX;
+    justify-content: center;
+}
+
+.team-member {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(1, 204, 119, 0.938);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00375c; /* Add a border around the image */
+}
+
+.team-member h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #555;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #3498db;
+}
